@@ -12,6 +12,7 @@
     "axios": "^0.21.1",
     "express": "4.17.1",
     "express-handlebars": "3.1.0",
+    "mercadolibre": "0.0.13",
     "mercadopago": "^1.5.7"
   }
 }

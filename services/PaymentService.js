@@ -6,7 +6,7 @@ class PaymentService {
       prod: {},
       test: {
         access_token:
-          "APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398"
+          "APP_USR-2572771298846850-120119-a50dbddca35ac9b7e15118d47b111b5a-681067803"
       }
     };
     this.mercadoPagoUrl = "https://api.mercadopago.com/checkout";
@@ -28,17 +28,17 @@ class PaymentService {
 
     const preferences = {
       items,
-      external_reference: "dpaolac@gmail.com",
+      external_reference: "mapache666@gmail.com",
       payer: {
         name: "Lalo",
         surname: "Landa",
-        email: "test_user_63274575@testuser.com",
+        email: "test_user_83958037@testuser.com",
         phone: {
-          area_code: "11",
-          number: "22223333"
+          area_code: "1",
+          number: "6050505"
         },
         address: {
-          zip_code: "1111",
+          zip_code: "110561",
           street_name: "False",
           street_number: "123"
         }
