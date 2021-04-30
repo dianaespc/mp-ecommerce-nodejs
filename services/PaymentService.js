@@ -14,7 +14,7 @@ class PaymentService {
 
   async createPaymentMercadoPago(name, price, unit, img) {
     const url = `${this.mercadoPagoUrl}/preferences?access_token=${this.tokensMercadoPago.test.access_token}`;
-    img= 'https://mapache-mp-commerce-nodejs.herokuapp.com'+img.substring(1);
+    img= 'https://dianaespc-mp-commerce-nodejs.herokuapp.com'+img.substring(1);
     const items = [
       {
         id: 1234,
@@ -28,7 +28,7 @@ class PaymentService {
 
     const preferences = {
       items,
-      external_reference: "mapache666@gmail.com",
+      external_reference: "dianaespc666@gmail.com",
       payer: {
         name: "Lalo",
         surname: "Landa",
@@ -54,11 +54,11 @@ class PaymentService {
         // default_installments: 6
       },
       back_urls: {
-        success: "https://mapache-mp-commerce-nodejs.herokuapp.com/success",
-        pending: "https://mapache-mp-commerce-nodejs.herokuapp.com/pending",
-        failure: "https://mapache-mp-commerce-nodejs.herokuapp.com/error"
+        success: "https://dianaespc-mp-commerce-nodejs.herokuapp.com/success",
+        pending: "https://dianaespc-mp-commerce-nodejs.herokuapp.com/pending",
+        failure: "https://dianaespc-mp-commerce-nodejs.herokuapp.com/error"
       },
-      notification_url: "https://mapache-mp-commerce-nodejs.herokuapp.com/webhook",
+      notification_url: "https://dianaespc-mp-commerce-nodejs.herokuapp.com/webhook",
       auto_return: "approved"
     };
 
