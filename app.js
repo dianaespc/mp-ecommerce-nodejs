@@ -23,6 +23,14 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/error', function (req, res) {
+  res.render('error');
+});
+
+app.get('/pending', function (req, res) {
+  res.render('pending');
+});
+
 app.get('/detail', function (req, res) {
     res.render('detail', req.query);
 });

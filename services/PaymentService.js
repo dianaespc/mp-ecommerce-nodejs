@@ -28,19 +28,19 @@ class PaymentService {
 
     const preferences = {
       items,
-      external_reference: "dianaespc666@gmail.com",
+      external_reference: "dpaolac@gmail.com",
       payer: {
         name: "Lalo",
         surname: "Landa",
         email: "test_user_83958037@testuser.com",
         phone: {
-          area_code: "1",
-          number: "6050505"
+          area_code: "52",
+          number: "5549737300"
         },
         address: {
-          zip_code: "110561",
-          street_name: "False",
-          street_number: "123"
+          zip_code: "03940",
+          street_name: "Insurgentes Sur",
+          street_number: "1602"
         }
       },
       payment_methods: {
